@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.daohang{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    position:fixed;
+    z-index: 99;
+}
+.container_fluid{
+    padding: 0;
+}
+.daohang_img{
+    float: left;
+    width: 56px;
+    margin:25px ;
+}
+.daohang_ul li{
+    float: left;
+    margin-left: 5%;
+}
+.daohang_ul li a{
+    color: #fff;
+    line-height: 70px;
+    font-size: 16px;
+}
+.daohang_ul li span a {
+    font-size: 12px;
+}
+#demo{
+    width: 100%;
+}
+.daohang_yuandian{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.carzhanshi{
+    height:300px;
+    background-image:url("../images/block.jpg");
+}
+.carzhanshi div h2{
+    text-align: center;
+    font-weight: bold;
+}
+.carzhanshi_text{
+    /*margin: 0 auto;*/
+    margin-top: 30px;
+}
+.carzhanshi_tupian{
+    /*margin-left: 10px;*/
+    margin-top: 55px;
+}
+.carzhanshi_tupian>div{
+    overflow:hidden;
+}
+.carzhanshi_tupian img{
+    cursor:pointer;
+    transition: all 1.5s;
+}
+.carzhanshi_tupian img:hover{
+    transform:scale(1.2);
+}
+.cardaohang{
+    width: 360px;
+    height: 549px;
+    overflow:hidden;
+    transition: all 1s;
+}
+
+.cardaohang:nth-child(2),.cardaohang:nth-child(4){
+    margin-top:50px;
+}
+
+.cardaohang:hover{
+    width: 522px;
+}
+
+.my_1{
+    margin-left:12% !important;
+}
+.car_tanxiang{
+    font-weight: bold;
+    padding-top: 30px;
+}
+.car_tanxiang_text{
+    font-size: 1.5rem;
+    color: #333;
+}
+.xiaotu3{
+    margin-top: -80px;
+    transition: all 1s;
+}
+.xiaotu3:hover{
+    transform:scale(1.1);
+}
+.tanxiang_bg{
+    background-image: url("../images/block3.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 740px;
+}
+.che{
+    height:700px;
+}
+.footer{
+    margin-top: 430px;
+    background-color: #e7e7e7;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer>a>div{
+    width: 464px;
+    height: 308px;
+}
+.footer>a>div{
+    margin-left: 10px;
+    overflow: hidden;
+}
+.footer>a>div>img{
+    transition: all 1s;
+}
+.footer>a>div>img:hover{
+    transform:scale(1.2);
+}
+.footer_text{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    transition:all 1s;
+}
+.footer_text:hover{
+    text-decoration: none;
+    transform:scale(1.1);
+}
+.zfooter{
+    margin:70px auto;
+}
+.zfooter>div>a{
+    text-decoration: none;
+    color:#000;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: bold;
+}
+.my_mll{
+    margin-left: 200px;
+}
+.my_mlll{
+    margin-left: 200px;
+}
+.shengmimg{
+    font-size: 16px;
+    line-height: 30px;
+    color: #818181;
+    width: 1444px;
+    margin-left: 260px;
+}
