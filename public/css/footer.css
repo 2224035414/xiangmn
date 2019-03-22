@@ -1,6 +1,6 @@
 *{margin: 0;padding: 0}
 .zfooter{
-    margin:70px 100px;
+    margin:70px 100px 20px 100px ;
 }
 .zfooter>div>div{
     text-align: center;
@@ -23,4 +23,5 @@
     line-height: 30px;
     color: #818181;
     width: 1444px;
+    text-align: center;
 }

@@ -11,24 +11,54 @@
     <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-<!--导航-->
-<header class="container-fluid daohang">
-    <div class="row">
-        <div class="col-12">
-            <a href=""><img src="images/logo.png" alt="" class="logoin"></a>
-            <a href=""><span>品牌车型</span></a>
-            <a href=""><span>Jeep Life</span></a>
-            <a href=""><span>购车支持</span></a>
-            <a href=""><span>Jeep 全境界</span></a>
-            <a href=""><span>品牌信息</span></a>
-            <a href=""><span class="daohang_chaxun">查询经销商</span></a>
-            <a href=""><span>预约试驾</span></a>
-            <input type="text" style="height: 23px">
-            <a href=""><img src="images/search.png" alt=""></a>
-            <a href=""><img src="images/fav.png" alt=""></a>
-            <a href=""><img src="images/fca.png" alt=""></a>
+    <!--导航-->
+    <header class="container-fluid daohang">
+        <div class="row">
+            <div class="col-12 my_nav">
+                <a href="javascript:;"><img src="images/logo.png" alt="" class="logoin"></a>
+                <a href="javascript:;" data-page="1"><span>品牌车型</span></a>
+                <a href="javascript:;" data-page="2"><span>Jeep Life</span></a>
+                <a href="javascript:;" data-page="3"><span>购车支持</span></a>
+                <a href="javascript:;" data-page="4"><span>Jeep 全境界</span></a>
+                <a href="javascript:;" data-page="5"><span>品牌信息</span></a>
+                <a href="javascript:;" data-page="6"><span class="daohang_chaxun">查询经销商</span></a>
+                <a href="javascript:;" data-page="7"><span>预约试驾</span></a>
+                <input type="text" style="height: 23px">
+                <a href=""><img src="images/search.png" alt=""></a>
+                <a href=""><img src="images/fav.png" alt=""></a>
+                <a href=""><img src="images/fca.png" alt=""></a>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
+    <script>
+            $('.my_nav').on('click','a',function(e){
+            console.log(e.target)
+            e.preventDefault();
+            /*if(e.target.parentElement.dataset.page == 1)
+            {
+                window.location.href='http://127.0.0.1:3000/product.html';
+            }*/
+            console.log(e.target.parentElement.dataset.page)
+            switch(e.target.parentElement.dataset.page){
+                case '1':top.location.href='http://127.0.0.1:3000/product.html';
+                        break;
+                case '2':top.location.href='http://127.0.0.1:3000/jeepLife.html';
+                        break;
+                case '3':top.location.href='http://127.0.0.1:3000/product.html';
+                        break;
+                case '4':top.location.href='http://127.0.0.1:3000/jingjie.html';
+                        break;
+                case '5':top.location.href='http://127.0.0.1:3000/jeepLife.html';
+                        break;
+                case '6':top.location.href='http://127.0.0.1:3000/jingxiaoshang.html';
+                        break;
+                case '7':top.location.href='http://127.0.0.1:3000/product.html';
+                        break;
+                default:console.log('error');
+                        break;                                        
+            }
+        
+    })
+        </script>
 </body>
 </html>

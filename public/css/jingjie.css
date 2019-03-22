@@ -1,0 +1,132 @@
+*{margin: 0;padding: 0;}
+a:active, a:hover, a:visited, a:focus {
+    text-decoration: none;
+}
+.my_header{
+    width: 100%;
+    height: 70px;
+    position:fixed;
+    z-index: 99;
+}
+.my_footer{
+    width: 100%;
+    height: 280px;
+}
+.body>h2{
+    text-align: center;
+    margin-top: -77px;
+}
+.bgimg{
+    background-image: url("../images/quanjingjie/banner.jpg");
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.bgimg>img{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+.bgimg>p{
+    color: #fff;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+.body{
+    padding-top: 150px;
+}
+
+.jiuyuan>div{
+    text-align: center;
+}
+.f3{
+    padding-bottom: 3px;
+}
+.f3>div{
+    text-align: center;
+    background-color: black;
+    height: 80px;
+}
+.f3>div>h2{
+    line-height: 80px;
+    color: #fff;
+}
+.f3_2>div>div>div{
+    background-color: black;
+    text-align: center;
+    width: 708px;
+    height: 70px;
+}
+.f3_2>div>div>div h4>a{
+    color: #fff;
+    line-height: 70px;
+    
+}
+.f3_2>div>div>div h4>a:hover{
+    color: #f8be00;
+}
+
+.f3_2>div>div>div{
+    float: left;
+    margin-left:3px;
+}
+.f3_2>div>div{
+    margin: 0 auto;
+    height: 70px;
+    width: 1446px;
+}
+.f3_3>div>div{
+    margin: 0 auto;
+    width: 1440px;
+}
+.f3_3>div>div>div{
+    float: left;
+}
+.f3_3_1{
+    margin-left: 3px;
+}
+.f3_3_1>img{
+    width: 708px;
+    height: 398px;
+}
+.f3_3>div>div>div>p{
+    width: 708px;
+    height: 350px;
+    color: #333;
+}
+.f3_3>div>div div{
+    background-color: #d7d7d7;
+}
+.f3_3>div>div>div>p>span>a{
+    color: #000;
+}
+.f_4>div>h2{
+    height: 80px;
+    background-color: #000;
+    line-height: 80px;
+    color: #fff;
+}
+.f_4>div>h2{
+    margin-top: 10px;
+}
+.f_5>div>div>div>div>p>a{
+    color: #fff;
+    font-size: 22px;
+}
+.f_5>div>div>div>div>p>a:hover{
+    color: #f8be00;
+}
+.f_5>div>div>div>div>p{
+    width: 402px;
+    color: #fff;
+}
+.f_5>div>div{
+    margin-left: 310px;
+}
+.f_5>div>div>div>div{
+    margin: 10px;
+}
+.f_5>div>div>div>div>.weixinsao{
+    margin-top: 25px;
+}

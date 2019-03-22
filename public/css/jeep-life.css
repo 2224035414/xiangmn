@@ -1,8 +1,38 @@
 *{margin: 0;padding: 0;}
 .my_header{
     width: 100%;
+    height: 70px;
+    position:fixed;
+    z-index: 99;
 }
 .my_footer{
     width: 100%;
-    height: 14rem;
+    height: 17rem;
+}
+
+.chexing>div>img{
+    width: 1918px;
+}
+.chexing>div{
+    width: 100%;
+    margin: 0;
+    margin-top:80px;
+}
+.tanxiang{
+    width: 1918px;
+}
+.tanxiang>div>h2{
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+}
+.tanxiang>div{
+    width: 100%;
+    margin: 0;
+}
+.tanxiang>div>img{
+    width: 1918px;
+}
+.bgcolor{
+    background-color:#000;
 }

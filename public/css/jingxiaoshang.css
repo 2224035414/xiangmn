@@ -1,0 +1,38 @@
+*{
+  margin :0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+#daohang>div{
+  background: #000;
+}
+#daohang>div>ul>li{
+  font-size : 22px;
+  margin-top:20px; 
+}
+#daohang>div>ul>li>a{
+  text-decoration: none;
+  color: #fff;
+}
+.breadcrumb{
+  background: #dadada;
+}
+.breadcrumb>li>a{
+  color: #f5ae17;
+}
+.container{
+  background: #dadada;  
+}
+#neirong>div{
+  margin-left: 60px;
+}
+#neirong>div>div{
+  margin-left: 50px;
+}
+.my_footer{
+  background: #131313;
+  width: 1140px;
+  color: #fff;
+}

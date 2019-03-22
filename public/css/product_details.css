@@ -1,0 +1,109 @@
+*{margin: 0;padding: 0;}
+.biaoti>ul li>a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #f5ae17;
+}
+.biaoti>ul li>a>img{
+    margin-top: -5px;
+}
+.biaoti>ul{
+    margin-left: 1000px;
+}
+.biaoti{
+    background-color: #232323;
+    height: 25px;
+}
+.daohang>div{
+    background-color: #000;
+    margin-top:25px;
+}
+.daohang>div>img{
+    margin-left: 5px;
+}
+.daohang>div>a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 42px;
+}
+.daohang>div>a:hover{
+    background-color: #f5ae17;
+}
+.daohang>div>a{
+    margin-left: 100px;
+}
+.daohang>div>:nth-child(2){
+    margin-left: 150px;
+}
+.buy .s_btn1,.buy .s_btn2{
+    display:inline-block;
+    width:160px;
+    height:56px;
+    color:white;
+    text-decoration:none;
+}
+.buy .s_btn2{
+    color:black;
+}
+.buy .s_btn1:hover{
+    color:black;
+}
+.buy .s_btn2:hover{
+    color: #f5ae17;
+}
+body div .biaoti{
+    position:fixed; 
+    z-index: 99;
+}
+
+
+
+#my-buycar>div>div>ul{ list-style:none; padding:0;}
+#my-buycar>div>div>ul>li>a{
+  text-decoration:none;
+	color:#f5ae17;
+	padding:15px 0;
+	display:inline-block;
+  width:248.5px;
+  text-align:center;
+  background: #000;
+}
+#my-buycar>div>div>ul>li>a:hover{
+    color: #fff;
+}
+#my-buycar>div>div>ul>li{
+  float:left;
+}
+#my-buycar>div>div>ul:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#tabss{
+    position: relative;
+    margin-top: -70px;
+}
+#tabss>.active{
+    z-index:10;
+}
+#tabss>div{
+    background: #fff;
+    height: 832px;
+}
+#tabss>div>img{
+    width:994px;
+    /* height:832px; */
+}
+#tabss>div{
+    position:absolute;
+    top:54px;
+}
+#my-buycar .tabs>.active>a{
+	color:#fff;
+}
+footer .my_footer{
+    margin-top:900px;
+    width: 100%;
+    height:210px; 
+}

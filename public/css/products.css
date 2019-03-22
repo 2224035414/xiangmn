@@ -1,0 +1,24 @@
+.my_header{
+  width: 100%;
+  height: 70px;
+  position:fixed;
+  z-index: 99;
+}
+.my_footer{
+  background: #131313;
+  color:#fff;
+}
+#datu>img{
+  margin-top: 71px;
+}
+.price{
+  color:#9e0000;
+}
+.card>.card-body>p>span{
+  color:#6c757d;
+  font-size:12px;
+}
+
+
+
+
